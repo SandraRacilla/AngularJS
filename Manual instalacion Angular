@@ -1,0 +1,46 @@
+Instalación AngularJS y NodeJS en UBUNTU
+
+1. Instalación NodeJS
+	Debemos ingresar los siguientes comandos en la terminal asegurandonos que tengamos 		todos los permisos
+
+		curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+		sudo apt-get install nodejs
+
+	NOTA: Si no tenemos instalada la herramienta 'curl' podemos instalarla con los siguientes 	comandos:
+	
+		sudo apt-get update
+		sudo apt-get install curl  
+	
+	Podemos probar que la instalación se ha realizado con éxito ingresando los siguientes 		comandos los que nos darán las versiones que hemos instalado
+	
+		node --version
+		npm --version
+
+ 
+2. Instalación Angular
+	Para instalar angular en tu sistema ingresa el siguinte comando
+		npm install -g @angular/cli
+
+	Verificamos que se haya instalado la herramienta
+
+		ng --version
+
+3. Creación nuevo proyecto
+	
+	El módulo 'ng' se descarga por default cuando instalas AngularJS, este módulo contiene los componentes escenciales para que funcione la aplicación de Angular.
+
+		ng new nombre_aplicacion
+
+4. Levantar la aplicación de Angular
+	Es necesario que nos situemos en la carpeta que acabamos de crear
+		
+		cd nombre_aplicacion
+	
+	Ejecutamos nuestra aplicación
+	
+		npm start
+	
+	El comando nos dirá cómo podemos ver nuestro proyecto
+ 
+
+	

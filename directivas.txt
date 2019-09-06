@@ -1,0 +1,19 @@
+Algunas direcctivas 
+ng-app: inicializar aplicación de AngularJS
+
+ng-controller: Se define el nombre del controlador que se usará,
+    al final del archivo es necesario escribir etiqueta script 
+    con el nombre del archivo donde se encuentra el controlador
+    <script scr="nombreArchivo" type"text/javascript"></script>
+
+ng-repeat: es de gran ayuda como loop, en decir que dentro de un modelo
+    puede tomar cada uno de los valores en la lista Ejemplo: en un 
+    modelo de varios alumnos, para obtener información de cada alumno
+    ng-repeat="alumno in alumnos"
+
+ng-init: definir el modelo dentro de la plantilla
+
+ng-model: ayuda a hacer un data binding del valor de un INPUT. En otras palabras
+    pueda modificar el valor del modelo tanto en vista como en controlador
+
+ng-click: al paretar un botón manda a llamar una función
