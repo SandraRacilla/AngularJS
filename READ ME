@@ -1,0 +1,4 @@
+Los archivos funcionales que te permitirán provar el CRUD son index, que contiene la parte del frontend, y controller,
+que como su nombre lo dice contiene el controlador y modelo usado.
+
+Los demás archivos son complementarios, y muestran un poco del trabajo realizado.
